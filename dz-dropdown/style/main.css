@@ -1,0 +1,17 @@
+.drop-down{
+    display: none;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+.menu{
+    display: flex;
+    list-style: none;
+}
+.menu li + li{
+    margin-left: 200px;
+}
+.drop-down li + li {
+    margin-left: 0px;
+}
